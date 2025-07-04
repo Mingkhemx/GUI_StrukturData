@@ -92,10 +92,8 @@ java --module-path /path/to/javafx/lib --add-modules javafx.controls,javafx.fxml
 
 ## 🎨 Screenshots
 
-[![Alt text](path/to/image.png)]([https://link-to-somewhere.com](https://i.imgur.com/yKvYT6O.png))
-
 ### ArrayList Interface
-![ArrayList Interface](screenshots/arraylist_interface.png)
+![ArrayList Interface](demo/Screenshot 2025-07-04 104046.png)
 
 ## 🔧 Fitur Teknis
 
