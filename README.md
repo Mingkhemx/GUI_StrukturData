@@ -24,15 +24,15 @@
 - ✅ Data persistence dengan XML
 
 ### 2. Future Implementations (Coming Soon)
-- 📋 Stack (LIFO)
-- 🔄 Queue (FIFO)
+- 📋 Stack 
+- 🔄 Queue
 - 🌳 Binary Tree
 - 📊 Graph
 - 🔗 Linked List
 
 ## 🛠️ Teknologi yang Digunakan
 
-- **Java 11+** - Bahasa pemrograman utama
+- **Java 9** - Bahasa pemrograman utama
 - **JavaFX** - Framework untuk GUI
 - **FXML** - Markup language untuk layout
 - **DOM Parser** - Untuk operasi XML
@@ -90,42 +90,10 @@ java --module-path /path/to/javafx/lib --add-modules javafx.controls,javafx.fxml
 - Saat aplikasi dibuka kembali, data akan dimuat otomatis
 - Tidak perlu save manual!
 
-## 📁 Struktur Project
-
-```
-gui_struktur_data/
-├── src/
-│   ├── GUI_ArrayList/
-│   │   ├── ArrayListController.java
-│   │   ├── ArrayListView.fxml
-│   │   └── MainApp.java
-│   ├── GUI_Stack/
-│   │   └── (Coming Soon)
-│   └── GUI_Queue/
-│       └── (Coming Soon)
-├── resources/
-│   ├── styles/
-│   │   └── application.css
-│   └── icons/
-├── data_autosave.xml (Generated automatically)
-├── README.md
-└── LICENSE
-```
-
 ## 🎨 Screenshots
 
 ### ArrayList Interface
 ![ArrayList Interface](screenshots/arraylist_interface.png)
-
-### XML Auto-Save
-```xml
-<?xml version="1.0" encoding="UTF-8"?>
-<arraylist>
-    <item index="0">Data Pertama</item>
-    <item index="1">Data Kedua</item>
-    <item index="2">Data Ketiga</item>
-</arraylist>
-```
 
 ## 🔧 Fitur Teknis
 
@@ -198,7 +166,7 @@ Project ini dilisensikan under MIT License - lihat file [LICENSE](LICENSE) untuk
 
 ⭐ **Jangan lupa untuk memberikan star jika project ini membantu Anda!**
 
-📧 **Ada pertanyaan?** Silakan buat issue atau hubungi saya di [email@example.com](mailto:email@example.com)
+📧 **Ada pertanyaan?** Silakan buat issue atau hubungi saya di [email@example.com](mailto:migwaraa@gmail.com)
 
 ---
 
