@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox stylesheets="@ArrayList.css" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="GUI_ArrayList.ArrayListController">
+   <children>
+      <!-- Title -->
+      <Label style="-fx-font-size: 18px; -fx-font-weight: bold; -fx-alignment: center;" text="Array List">
+         <VBox.margin>
+            <Insets bottom="20.0" top="20.0" />
+         </VBox.margin>
+      </Label>
+      <TextField fx:id="tfHasil" prefWidth="100.0" />
+      
+      <!-- Input area with ListView and Add button -->
+      <HBox spacing="10.0">
+         <VBox.margin>
+            <Insets bottom="20.0" left="20.0" right="20.0" />
+         </VBox.margin>
+      </HBox>
+      
+      <!-- Index and Value input fields -->
+      <HBox spacing="20.0">
+         <children>
+            <VBox spacing="5.0">
+               <children>
+                  <Label text="Index" />
+                  <TextField fx:id="tfIndex" prefWidth="100.0" />
+               </children>
+            </VBox>
+            
+            <VBox spacing="5.0">
+               <children>
+                  <Label text="Value" />
+                  <TextField fx:id="tfValue" prefWidth="200.0" />
+               </children>
+            </VBox>
+         </children>
+         <VBox.margin>
+            <Insets bottom="20.0" left="20.0" right="20.0" />
+         </VBox.margin>
+      </HBox>
+      
+      <!-- Action buttons -->
+      <HBox spacing="10.0">
+         <children>
+            <Button fx:id="addIndexButton" mnemonicParsing="false" onAction="#tambahData" prefWidth="80.0" text="Add" />
+            <Button fx:id="editButton" mnemonicParsing="false" onAction="#editData" prefWidth="80.0" text="Edit" />
+            <Button fx:id="deleteButton" mnemonicParsing="false" onAction="#hapusData" prefWidth="80.0" text="Delete" />
+         </children>
+         <VBox.margin>
+            <Insets bottom="20.0" left="20.0" right="20.0" />
+         </VBox.margin>
+      </HBox>
+      
+      <!-- Clear All button -->
+      <Button fx:id="clearAllButton" mnemonicParsing="false" onAction="#clearAllData" prefWidth="200.0" text="Clear All">
+         <VBox.margin>
+            <Insets bottom="20.0" left="20.0" right="20.0" />
+         </VBox.margin>
+      </Button>
+   </children>
+   <padding>
+      <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+   </padding>
+</VBox>

@@ -1,0 +1,194 @@
+/* ===== BACKGROUND DAN CONTAINER UTAMA ===== */
+.root {
+    -fx-background-color: linear-gradient(to bottom right, #1a1a2e, #16213e, #0f3460);
+    -fx-font-family: "Segoe UI", Arial, sans-serif;
+}
+
+/* ===== STYLING UNTUK VBOX UTAMA ===== */
+VBox {
+    -fx-background-color: linear-gradient(to bottom, 
+        rgba(255, 255, 255, 0.1), 
+        rgba(255, 255, 255, 0.05));
+    -fx-background-radius: 20px;
+    -fx-border-color: rgba(255, 255, 255, 0.2);
+    -fx-border-radius: 20px;
+    -fx-border-width: 1px;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.3), 20, 0.5, 0, 10);
+}
+
+/* ===== STYLING UNTUK LABEL JUDUL ===== */
+Label {
+    -fx-text-fill: linear-gradient(to right, #ff6b6b, #4ecdc4, #45b7d1, #96ceb4);
+    -fx-font-size: 24px;
+    -fx-font-weight: bold;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.5), 5, 0.7, 0, 2);
+}
+
+/* Label untuk input fields */
+Label:not(.title) {
+    -fx-text-fill: #ffffff;
+    -fx-font-size: 14px;
+    -fx-font-weight: normal;
+    -fx-effect: none;
+}
+
+/* ===== STYLING UNTUK TEXT FIELD ===== */
+TextField {
+    -fx-background-color: linear-gradient(to bottom, 
+        rgba(255, 255, 255, 0.15), 
+        rgba(255, 255, 255, 0.1));
+    -fx-background-radius: 10px;
+    -fx-border-color: linear-gradient(to right, #ff6b6b, #4ecdc4);
+    -fx-border-radius: 10px;
+    -fx-border-width: 2px;
+    -fx-text-fill: #ffffff;
+    -fx-font-size: 14px;
+    -fx-padding: 10px;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.3), 10, 0.5, 0, 3);
+}
+
+TextField:focused {
+    -fx-border-color: linear-gradient(to right, #45b7d1, #96ceb4);
+    -fx-background-color: linear-gradient(to bottom, 
+        rgba(255, 255, 255, 0.2), 
+        rgba(255, 255, 255, 0.15));
+    -fx-effect: dropshadow(gaussian, rgba(69, 183, 209, 0.5), 15, 0.7, 0, 0);
+}
+
+/* ===== STYLING UNTUK BUTTON ===== */
+Button {
+    -fx-background-color: linear-gradient(to bottom, 
+        rgba(255, 107, 107, 0.8), 
+        rgba(255, 107, 107, 0.6));
+    -fx-background-radius: 15px;
+    -fx-border-color: rgba(255, 255, 255, 0.3);
+    -fx-border-radius: 15px;
+    -fx-border-width: 1px;
+    -fx-text-fill: #ffffff;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-padding: 12px 20px;
+    -fx-cursor: hand;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.4), 8, 0.5, 0, 4);
+}
+
+Button:hover {
+    -fx-background-color: linear-gradient(to bottom, 
+        rgba(255, 107, 107, 1.0), 
+        rgba(255, 107, 107, 0.8));
+    -fx-effect: dropshadow(gaussian, rgba(255, 107, 107, 0.6), 15, 0.7, 0, 6);
+    -fx-scale-x: 1.05;
+    -fx-scale-y: 1.05;
+}
+
+Button:pressed {
+    -fx-background-color: linear-gradient(to bottom, 
+        rgba(255, 107, 107, 0.6), 
+        rgba(255, 107, 107, 0.4));
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.6), 5, 0.5, 0, 2);
+    -fx-scale-x: 0.95;
+    -fx-scale-y: 0.95;
+}
+
+/* ===== STYLING KHUSUS UNTUK BUTTON BERBEDA ===== */
+#addIndexButton {
+    -fx-background-color: linear-gradient(to bottom, 
+        rgba(78, 205, 196, 0.8), 
+        rgba(78, 205, 196, 0.6));
+}
+
+#addIndexButton:hover {
+    -fx-background-color: linear-gradient(to bottom, 
+        rgba(78, 205, 196, 1.0), 
+        rgba(78, 205, 196, 0.8));
+    -fx-effect: dropshadow(gaussian, rgba(78, 205, 196, 0.6), 15, 0.7, 0, 6);
+}
+
+#editButton {
+    -fx-background-color: linear-gradient(to bottom, 
+        rgba(69, 183, 209, 0.8), 
+        rgba(69, 183, 209, 0.6));
+}
+
+#editButton:hover {
+    -fx-background-color: linear-gradient(to bottom, 
+        rgba(69, 183, 209, 1.0), 
+        rgba(69, 183, 209, 0.8));
+    -fx-effect: dropshadow(gaussian, rgba(69, 183, 209, 0.6), 15, 0.7, 0, 6);
+}
+
+#deleteButton {
+    -fx-background-color: linear-gradient(to bottom, 
+        rgba(255, 107, 107, 0.8), 
+        rgba(255, 107, 107, 0.6));
+}
+
+#deleteButton:hover {
+    -fx-background-color: linear-gradient(to bottom, 
+        rgba(255, 107, 107, 1.0), 
+        rgba(255, 107, 107, 0.8));
+    -fx-effect: dropshadow(gaussian, rgba(255, 107, 107, 0.6), 15, 0.7, 0, 6);
+}
+
+#clearAllButton {
+    -fx-background-color: linear-gradient(to bottom, 
+        rgba(150, 206, 180, 0.8), 
+        rgba(150, 206, 180, 0.6));
+    -fx-pref-width: 200px;
+}
+
+#clearAllButton:hover {
+    -fx-background-color: linear-gradient(to bottom, 
+        rgba(150, 206, 180, 1.0), 
+        rgba(150, 206, 180, 0.8));
+    -fx-effect: dropshadow(gaussian, rgba(150, 206, 180, 0.6), 15, 0.7, 0, 6);
+}
+
+/* ===== STYLING UNTUK HBOX ===== */
+HBox {
+    -fx-background-color: transparent;
+    -fx-alignment: center;
+}
+
+/* ===== STYLING UNTUK VBOX DALAM HBOX ===== */
+HBox VBox {
+    -fx-background-color: transparent;
+    -fx-effect: none;
+    -fx-border-color: transparent;
+}
+
+/* ===== ANIMASI TAMBAHAN ===== */
+.animated-glow {
+    -fx-effect: dropshadow(gaussian, rgba(255, 255, 255, 0.3), 10, 0.5, 0, 0);
+}
+
+/* ===== STYLING UNTUK TEXT FIELD HASIL ===== */
+#tfHasil {
+    -fx-background-color: linear-gradient(to bottom, 
+        rgba(255, 255, 255, 0.2), 
+        rgba(255, 255, 255, 0.15));
+    -fx-border-color: linear-gradient(to right, #96ceb4, #45b7d1);
+    -fx-border-width: 3px;
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #ffffff;
+    -fx-effect: dropshadow(gaussian, rgba(150, 206, 180, 0.5), 15, 0.7, 0, 5);
+}
+
+/* ===== RESPONSIVENESS ===== */
+.root:hover {
+    -fx-background-color: linear-gradient(to bottom right, 
+        #1a1a2e, #16213e, #0f3460, #533483);
+}
+
+/* ===== EFEK 3D PADA CONTAINER ===== */
+.container-3d {
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.5), 25, 0.5, 5, 15);
+    -fx-background-color: linear-gradient(to bottom, 
+        rgba(255, 255, 255, 0.1), 
+        rgba(255, 255, 255, 0.05));
+    -fx-background-radius: 20px;
+    -fx-border-color: rgba(255, 255, 255, 0.2);
+    -fx-border-radius: 20px;
+    -fx-border-width: 2px;
+}

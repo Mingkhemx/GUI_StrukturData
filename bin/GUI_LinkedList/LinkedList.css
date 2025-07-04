@@ -1,0 +1,149 @@
+/* Root container styling */
+.root {
+    -fx-background-color: linear-gradient(to bottom, #667eea 0%, #764ba2 100%);
+    -fx-font-family: "Segoe UI", Arial, sans-serif;
+}
+
+/* Title label styling */
+.title-label {
+    -fx-text-fill: white;
+    -fx-font-size: 24px;
+    -fx-font-weight: bold;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.3), 10, 0, 0, 2);
+}
+
+/* Display field styling */
+.display-field {
+    -fx-background-color: linear-gradient(to bottom, #ffffff 0%, #f0f2f5 100%);
+    -fx-background-radius: 15;
+    -fx-border-radius: 15;
+    -fx-border-color: #c0c0c0;
+    -fx-border-width: 2;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #333333;
+    -fx-padding: 15;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.2), 8, 0, 0, 3);
+}
+
+.display-field:focused {
+    -fx-border-color: #667eea;
+    -fx-effect: dropshadow(gaussian, rgba(102, 126, 234, 0.4), 12, 0, 0, 0);
+}
+
+/* Input label styling */
+.input-label {
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.3), 5, 0, 0, 1);
+}
+
+/* Input field styling */
+.input-field {
+    -fx-background-color: linear-gradient(to bottom, #ffffff 0%, #f8f9fa 100%);
+    -fx-background-radius: 12;
+    -fx-border-radius: 12;
+    -fx-border-color: #d0d0d0;
+    -fx-border-width: 2;
+    -fx-font-size: 14px;
+    -fx-padding: 12;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.15), 6, 0, 0, 2);
+}
+
+.input-field:focused {
+    -fx-border-color: #667eea;
+    -fx-effect: dropshadow(gaussian, rgba(102, 126, 234, 0.3), 8, 0, 0, 0);
+}
+
+/* Add button styling */
+.add-button {
+    -fx-background-color: linear-gradient(to bottom, #56ab2f 0%, #a8e6cf 100%);
+    -fx-background-radius: 25;
+    -fx-border-radius: 25;
+    -fx-border-color: #4a934a;
+    -fx-border-width: 2;
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-padding: 12 20 12 20;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.3), 8, 0, 0, 3);
+    -fx-cursor: hand;
+}
+
+.add-button:hover {
+    -fx-background-color: linear-gradient(to bottom, #4a934a 0%, #98d982 100%);
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.4), 10, 0, 0, 4);
+    -fx-scale-x: 1.05;
+    -fx-scale-y: 1.05;
+}
+
+.add-button:pressed {
+    -fx-background-color: linear-gradient(to bottom, #3e7b3e 0%, #7dc47d 100%);
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.2), 4, 0, 0, 1);
+    -fx-scale-x: 0.95;
+    -fx-scale-y: 0.95;
+}
+
+/* Remove button styling */
+.remove-button {
+    -fx-background-color: linear-gradient(to bottom, #ff6b6b 0%, #ffa8a8 100%);
+    -fx-background-radius: 25;
+    -fx-border-radius: 25;
+    -fx-border-color: #e55555;
+    -fx-border-width: 2;
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-padding: 12 20 12 20;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.3), 8, 0, 0, 3);
+    -fx-cursor: hand;
+}
+
+.remove-button:hover {
+    -fx-background-color: linear-gradient(to bottom, #e55555 0%, #ff9999 100%);
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.4), 10, 0, 0, 4);
+    -fx-scale-x: 1.05;
+    -fx-scale-y: 1.05;
+}
+
+.remove-button:pressed {
+    -fx-background-color: linear-gradient(to bottom, #cc4444 0%, #ff7777 100%);
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.2), 4, 0, 0, 1);
+    -fx-scale-x: 0.95;
+    -fx-scale-y: 0.95;
+}
+
+/* Clear button styling */
+.clear-button {
+    -fx-background-color: linear-gradient(to bottom, #667eea 0%, #764ba2 100%);
+    -fx-background-radius: 25;
+    -fx-border-radius: 25;
+    -fx-border-color: #5a6fd8;
+    -fx-border-width: 2;
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-padding: 12 20 12 20;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.3), 8, 0, 0, 3);
+    -fx-cursor: hand;
+}
+
+.clear-button:hover {
+    -fx-background-color: linear-gradient(to bottom, #5a6fd8 0%, #6b4397 100%);
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.4), 10, 0, 0, 4);
+    -fx-scale-x: 1.05;
+    -fx-scale-y: 1.05;
+}
+
+.clear-button:pressed {
+    -fx-background-color: linear-gradient(to bottom, #4d5fc7 0%, #5f3a85 100%);
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.2), 4, 0, 0, 1);
+    -fx-scale-x: 0.95;
+    -fx-scale-y: 0.95;
+}
+
+/* General button animations */
+.button {
+    -fx-transition: all 0.3s ease;
+}
