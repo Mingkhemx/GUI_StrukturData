@@ -93,9 +93,7 @@ java --module-path /path/to/javafx/lib --add-modules javafx.controls,javafx.fxml
 ## 🎨 Screenshots
 
 ### ArrayList Interface
-<p align="center">
-  <img src="demo/Screenshot 2025-07-04 104046n.png" alt="ArrayList Main Interface" width="800">
-</p>
+![Screenshot](https://raw.githubusercontent.com/username/repository/GUI_StrukturData/demo/1.png)
 
 ## 🔧 Fitur Teknis
 
