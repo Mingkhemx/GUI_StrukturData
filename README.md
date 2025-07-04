@@ -154,7 +154,7 @@ Project ini dilisensikan under MIT License - lihat file [LICENSE](LICENSE) untuk
 
 ## 👨‍💻 Author
 
-- **Your Name** - *Initial work* - [YourGitHub](https://github.com/Mingkhemx)
+- **Your Name** - *Initial work* - [Mingkhemx](https://github.com/Mingkhemx)
 
 ## 🙏 Acknowledgments
 
